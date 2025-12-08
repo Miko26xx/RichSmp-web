@@ -1,5 +1,5 @@
 // EASY SETTINGS — CHANGE ONLY THESE
-const currentStatus = 3; // 1=online, 2=updates, 0=offline
+const currentStatus = 1; // 1=online, 2=updates, 0=offline
 const serverUpSince = "Monday 15:30"; // ← Change day + time here
 
 // Days starting Monday
@@ -76,4 +76,5 @@ if(document.getElementById('whitelistForm')){
         this.reset();
     };
 }
+
 
